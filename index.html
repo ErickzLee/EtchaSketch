@@ -12,6 +12,11 @@
         <div class="title">SketchPad</div>
         <div class="content">
             <div class="board"></div>
+            <button onclick="changeColor('black')">Black</button>
+            <button onclick="changeColor('white')">Erasor</button>
+            <button onclick="changeColor('gray')">Gray</button>
+            <button onclick="changeColor('random')">Random</button>
+            <button onclick="reset()">Reset</button>
         </div>
         <div>
             <input type="text" placeholder="Size of Board" value="16" onchange="changeSize(this.value)" />
